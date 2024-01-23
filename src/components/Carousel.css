@@ -1,1 +1,74 @@
 /* write down the css for Carousel in this file */
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 2.5rem;
+}
+
+.gallery {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    /* width: 40vw;
+    height: 90vh; */
+    height: 70vh;
+    width: 31.5vw;
+}
+
+.left, .right {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.696);
+    padding: 0.3rem;
+    height: 68.687vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    color: white;
+    margin: 4vh 5vh 4vh 5vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.437);
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+h2 {
+    color: white;
+    font-size: 3.5rem;
+    margin: 11vh;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.696);
+    color: white;
+    font-family: monospace;
+    font-weight: 200;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+}
